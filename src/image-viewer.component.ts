@@ -35,6 +35,10 @@ import { ImageViewerEnter, ImageViewerLeave } from './image-viewer-transitions';
 	template: `
 		<ion-header no-border>
 			<ion-navbar>
+				<button ion-button icon-only menuToggle>
+					<ion-icon name="menu"></ion-icon> 
+				</button>
+				<ion-title>Test</ion-title>
 			</ion-navbar>
 		</ion-header>
 
